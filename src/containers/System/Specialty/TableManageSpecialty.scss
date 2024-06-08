@@ -1,0 +1,26 @@
+#TableManageSpecialty {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#TableManageSpecialty td,
+#TableManageSpecialty th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#TableManageSpecialty tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#TableManageSpecialty tr:hover {
+  background-color: #ddd;
+}
+
+#TableManageSpecialty th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}

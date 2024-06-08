@@ -1,0 +1,23 @@
+.verify-email-container {
+  .title-succeed {
+    margin-top: 100px;
+    text-align: center;
+    .title {
+      font-size: 24px;
+    }
+    .title-left {
+      color: #111;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .title-right {
+      font-size: 17px;
+    }
+  }
+  .title-faild {
+    margin-top: 100px;
+    text-align: center;
+    color: red;
+    font-size: 18px;
+  }
+}

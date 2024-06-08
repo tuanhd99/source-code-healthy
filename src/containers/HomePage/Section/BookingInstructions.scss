@@ -1,0 +1,45 @@
+.booking-instruction {
+  margin: 10px 200px;
+  padding: 10px 50px;
+  //   border: 1px solid red;
+  .content-header {
+    text-align: center;
+  }
+  .content-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    .icon {
+      margin-bottom: 7px;
+      font-size: 30px;
+    }
+  }
+  .content-footer {
+    // border: 1px solid red;
+    h1 {
+      text-align: center;
+    }
+    .content1-container {
+      display: flex;
+      gap: 20px;
+      /* flex-wrap: wrap; */
+      flex-direction: row;
+      justify-content: space-around;
+      .content-left {
+        border-left: 1px solid #1111;
+        padding-left: 10px;
+        padding-top: 170px;
+        .step_4 {
+          padding-top: 170px;
+        }
+      }
+      .content-right {
+        .step_3 {
+          padding-top: 170px;
+        }
+      }
+    }
+  }
+}

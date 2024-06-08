@@ -1,0 +1,22 @@
+.manage-handbook-container {
+  padding: 0 20px;
+  .manage-title {
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .add-new-special {
+    .btn-save-handbook {
+      margin: 10px 0;
+      padding: 8px 5px;
+      border: none;
+      border-radius: 3px;
+      outline: none;
+      background-color: green;
+      min-width: 75px;
+      color: white;
+    }
+  }
+}
